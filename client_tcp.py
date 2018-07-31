@@ -19,7 +19,7 @@ print ('Para sair use CTRL+X\n')
 msg = conversa
 
 while msg != '\x18':
-    conversa = random.choice(["Login: leandro","Senha: reidopo", "tenta acessar ai", "acho que agora vai"])
+    conversa = random.choice(["Login: Fernando","Senha: quadrado", "tenta acessar ai", "acho que agora vai"])
 
     msg = conversa
     tcp.send(msg.encode())
